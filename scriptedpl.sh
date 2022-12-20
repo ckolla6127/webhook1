@@ -9,6 +9,6 @@ node{
     }
     stage('shell excute'){
         sh '''cd /home/ec2-user/
-        mkdir -p ckolla'''
+        mkdir -p ckolla1'''
     }
 }
