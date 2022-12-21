@@ -8,9 +8,9 @@ node{
     echo "thankl you"'''
     }
     stage('build'){
-    sh '''mkdir ckolla3
-    cd ckolla3
-    echo "hello chandra">chandu.txt'''
+    sh '''mkdir ckolla33
+    cd ckolla33
+    echo "hello chandra1">chandu1.txt'''
     }
     stage('build'){
         build 'Demo3'
