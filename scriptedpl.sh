@@ -7,8 +7,12 @@ node{
     echo "this is Build phase"
     echo "thankl you"'''
     }
-    stage('shell excute'){
-        sh '''cd /home/ec2-user/
-        mkdir -p ckolla1'''
+    stage('build'){
+    sh '''mkdir ckolla2
+    cd ckolla2
+    echo "hello chandra">chandu.txt'''
+    }
+    stage('build'){
+        build 'Demo3'
     }
 }
