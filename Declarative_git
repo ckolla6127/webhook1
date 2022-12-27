@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage("welcome"){
+            steps{
+                echo "hello world"
+            }
+        }
+        stage("Git Step"){
+            steps{
+                git 'https://github.com/ckolla6127/webhook1.git'
+            }
+        }
+        stage("welcome2"){
+            steps{
+                echo "hello chandra Declartive via git SCM done"
+            }
+        }
+    }
+}
+
